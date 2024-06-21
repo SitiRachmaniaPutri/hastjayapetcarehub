@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pet Care Landing Page</title>
+        <script src="./js.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Nav -->
+        <header class="row container">
+            <a href="#" class="logo"><img src="images/logo.svg" alt=""></a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+            <nav class="navigation row">
+                <ul class="row">
+                    <li><a href="#service">Our Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#product">Products</a></li>
+                    <li><a href="#">Pet Care</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="page-btn">Sign In</a></li>
+                    <li><a href="#" class="page-btn active">Register</a></li>
+                    <li class="lightDark" onclick="lightDark();"></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- End Nav-->
+
+        <!-- Hero Section -->
+         <section class="hero">
+            <div class="row flex container">
+                <div class="hero-content">
+                    <h1>Taking care for your cat !</h1>
+                    <p>Devoted to Ensuring Your Cats' Well-being</p>
+                    <a href="#" class="page-btn row">
+                        Explore more
+                        <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.15479 1.23392L7.04741 7.29494L1.15479 13.356" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero-img row"><img src="./images/hero.svg" alt=""></div>
+            </div>
+         </section>
+        <!-- Hero Section End -->
+
+        <!-- Service -->
+         <section class="service" id="service">
+            <div class="container">
+                <h2><span>Service</span> category</h2>
+                <div class="service-card column">
+                    <div class="s-card">
+                        <img src="./images/grooming.svg" alt="">
+                        <h3>Grooming</h3>
+                    </div>
+                    <div class="s-card" id="even">
+                        <img src="./images/zoning.svg" alt="">
+                        <h3>Zoning</h3>
+                    </div>
+                    <div class="s-card">
+                        <img src="./images/daycare.svg" alt="">
+                        <h3>Daycare</h3>
+                    </div>
+                    <div class="s-card" id="even">
+                        <img src="./images/boarding.svg" alt="">
+                        <h3>Animal Boarding Facility</h3>
+                    </div>
+                    <div class="s-card">
+                        <img src="./images/healthcare.svg" alt="">
+                        <h3>Healthcare</h3>
+                    </div>
+                </div>
+                <div class="flex row">
+                    <div class="service-img row">
+                       <img src="./images/service.svg" alt="">
+                    </div>
+                    <div class="service-content row">
+                        <div>
+                            <h2>zoning placement</h2>
+                            <p>We provide the right place for your cat's various needs.</p>
+                            <a href="#" class="page-btn row">
+                                Explore more
+                                <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.15479 1.23392L7.04741 7.29494L1.15479 13.356" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- Service End-->
+
+        <!-- Product -->
+         <section class="product" id="product">
+            <div class="container">
+                <h2><span>Nutrients</span> & Food.</h2>
+                <div class="deals row">
+                    <h2><span>25% off</span> all products.</h2>
+                    <a href="#" class="page-btn row">
+                        View more
+                        <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.15479 1.23392L7.04741 7.29494L1.15479 13.356" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="product-cards column grid">
+                    <div class="p-card">
+                        <div class="img row"><img src="./images/p1.svg" alt=""></div>
+                        <div class="p-content">
+                            <h3>Me-O Mackerel</h3>
+                            <p>
+                                Mackerel Sardine, Gelling Agents, Flavoring Agents, Soybean oil, Amino Acids, Taurine
+                            </p>
+                            <a href="" class="page-btn active">Buy now</a>
+                        </div>
+                    </div>
+                    <div class="p-card">
+                        <div class="img row"><img src="./images/p2.svg" alt=""></div>
+                        <div class="p-content">
+                            <h3>Eureka Turkey & Rice</h3>
+                            <p>
+                                Turkey & Turkey Meal, Brown Rice with Chicken Fat                                                            </p>
+                            <a href="" class="page-btn active">Buy now</a>
+                        </div>
+                    </div>
+                    <div class="p-card">
+                        <div class="img row"><img src="./images/p3.svg" alt=""></div>
+                        <div class="p-content">
+                            <h3>Whiskas Adult</h3>
+                            <p>
+                                With Omega 3, 6 & Zinc + Vit A & Taurine, Tuna                                                            </p>
+                            <a href="" class="page-btn active">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <section class="girl">
+                    <div class="row flex" id="girl">
+                        <div class="product-content">
+                            <div>
+                                <h2>Would you like to entrust your cat?</h2>
+                                <p>We offer pet boarding facilities for your cats.</p>
+                                <a href="#" class="page-btn row">
+                                Explore more
+                                    <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.15479 1.23392L7.04741 7.29494L1.15479 13.356" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-img row">
+                            <img src="./images/girl.svg" alt="">
+                        </div>
+                    </div>
+                </section>
+        <!-- Product End -->
+
+        <!-- Subscribe --> 
+         <section class="subscribe" id="contact">
+            <div class="subscribe-content row container">
+                <div>
+                    <h4><span>Want to get the latest information</span> from us?</h4>
+                    <form action="" class="row">
+                        <div class="input row">
+                            <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M29.979 0.897C29.972 0.829 29.96 0.764 29.939 0.698C29.918 0.633 29.891 0.574 29.857 0.515C29.839 0.484 29.835 0.448 29.814 0.418C29.798 0.395 29.773 0.384 29.755 0.363C29.71 0.31 29.66 0.266 29.606 0.224C29.556 0.185 29.508 0.149 29.452 0.12C29.397 0.0919999 29.34 0.0740002 29.28 0.0560002C29.213 0.0360002 29.147 0.0209999 29.077 0.0149999C29.05 0.0129999 29.027 0 29 0H1C0.973 0 0.95 0.0129998 0.923 0.0159998C0.853 0.0209998 0.787 0.0370002 0.719 0.0570002C0.66 0.0750002 0.603 0.0919999 0.549 0.12C0.492 0.149 0.444 0.186 0.393 0.226C0.339 0.268 0.29 0.311 0.245 0.364C0.227 0.385 0.202 0.396 0.186 0.419C0.165 0.449 0.16 0.484 0.143 0.516C0.109 0.574 0.082 0.633 0.061 0.699C0.04 0.765 0.028 0.829 0.021 0.897C0.017 0.933 0 0.964 0 1V21C0 21.552 0.448 22 1 22H29C29.552 22 30 21.552 30 21V1C30 0.964 29.983 0.933 29.979 0.897ZM25.879 2L15 9.771L4.121 2H25.879ZM2 20V2.943L14.419 11.814C14.593 11.938 14.796 12 15 12C15.204 12 15.407 11.938 15.581 11.814L28 2.943V20H2Z" fill="#D2CFCF"/>
+                            </svg>                                
+                            <input type="email" name="" id="" placeholder="your email address here...">
+                        </div>
+                        <button type="submit" class="page-btn row">
+                            Submit now
+                            <svg width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.15479 1.23392L7.04741 7.29494L1.15479 13.356" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+         </section>
+        <!-- Subscribe End--> 
+
+        <!-- Footer -->
+        <footer>
+         <div class="footer row container">
+            <div>
+                <h5>Follow on socials</h5>
+                <div class="media-links row">
+                    <a href="" class="row">
+                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2035_702)">
+                            <path d="M18.6319 7.36726C18.673 7.32103 18.8649 7.16997 19.6187 7.16997L22.0902 7.16905C22.8942 7.16905 23.548 6.51628 23.548 5.71382V1.40259C23.548 0.601503 22.8951 -0.0512695 22.0925 -0.0526428L18.4214 -0.0585938C16.1556 -0.0585938 14.2295 0.687334 12.8512 2.09885C11.4791 3.50396 10.7537 5.46548 10.7537 7.77101V10.0962H7.94537C7.14134 10.0962 6.48729 10.749 6.48729 11.5515V16.1946C6.48729 16.997 7.14134 17.6498 7.94537 17.6498H10.7537V28.4862C10.7537 29.2887 11.4078 29.9415 12.2118 29.9415H17.0255C17.8295 29.9415 18.4835 29.2887 18.4835 28.4862V17.65H21.9164C22.7204 17.65 23.3742 16.997 23.3742 16.195L23.3761 11.5517C23.3761 11.0246 23.0887 10.5368 22.6259 10.2789C22.4115 10.1594 22.162 10.0962 21.9047 10.0962H18.4835V8.25922C18.4835 7.66046 18.5643 7.44371 18.6319 7.36726Z" fill="#5B5B5B"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2035_702">
+                            <rect width="30" height="30" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                            
+                    </a>
+                    <a href="" class="row">
+                        <svg width="29" height="36" viewBox="0 0 29 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2035_704)">
+                            <path d="M24.1667 0H4.83333C3.55145 0 2.32208 0.505713 1.41565 1.40589C0.509225 2.30606 0 3.52696 0 4.8L0 24C0 25.273 0.509225 26.4939 1.41565 27.3941C2.32208 28.2943 3.55145 28.8 4.83333 28.8H24.1667C25.4485 28.8 26.6779 28.2943 27.5843 27.3941C28.4908 26.4939 29 25.273 29 24V4.8C29 3.52696 28.4908 2.30606 27.5843 1.40589C26.6779 0.505713 25.4485 0 24.1667 0V0ZM26.5833 24C26.5833 24.6365 26.3287 25.247 25.8755 25.6971C25.4223 26.1471 24.8076 26.4 24.1667 26.4H4.83333C4.19239 26.4 3.5777 26.1471 3.12449 25.6971C2.67128 25.247 2.41667 24.6365 2.41667 24V4.8C2.41667 4.16348 2.67128 3.55303 3.12449 3.10294C3.5777 2.65286 4.19239 2.4 4.83333 2.4H24.1667C24.8076 2.4 25.4223 2.65286 25.8755 3.10294C26.3287 3.55303 26.5833 4.16348 26.5833 4.8V24Z" fill="#5B5B5B"/>
+                            <path d="M14.5 7.2002C13.0661 7.2002 11.6644 7.62247 10.4721 8.41361C9.27986 9.20476 8.35061 10.3292 7.80188 11.6449C7.25314 12.9605 7.10957 14.4082 7.38931 15.8048C7.66905 17.2015 8.35955 18.4844 9.37348 19.4914C10.3874 20.4983 11.6792 21.184 13.0856 21.4618C14.492 21.7397 15.9497 21.5971 17.2745 21.0521C18.5992 20.5072 19.7315 19.5843 20.5282 18.4003C21.3248 17.2163 21.75 15.8242 21.75 14.4002C21.75 12.4906 20.9862 10.6593 19.6265 9.30903C18.2669 7.95876 16.4228 7.2002 14.5 7.2002ZM14.5 19.2002C13.5441 19.2002 12.6096 18.9187 11.8147 18.3912C11.0199 17.8638 10.4004 17.1142 10.0346 16.2371C9.66876 15.36 9.57305 14.3949 9.75954 13.4638C9.94604 12.5327 10.4064 11.6774 11.0823 11.0061C11.7583 10.3348 12.6195 9.87763 13.5571 9.69243C14.4946 9.50722 15.4665 9.60227 16.3496 9.96557C17.2328 10.3289 17.9877 10.9441 18.5188 11.7335C19.0499 12.5228 19.3333 13.4508 19.3333 14.4002C19.3333 15.6732 18.8241 16.8941 17.9177 17.7943C17.0113 18.6945 15.7819 19.2002 14.5 19.2002Z" fill="#5B5B5B"/>
+                            <path d="M22.3542 8.3998C23.3552 8.3998 24.1667 7.59392 24.1667 6.5998C24.1667 5.60569 23.3552 4.7998 22.3542 4.7998C21.3532 4.7998 20.5417 5.60569 20.5417 6.5998C20.5417 7.59392 21.3532 8.3998 22.3542 8.3998Z" fill="#5B5B5B"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_2035_704">
+                            <rect width="29" height="36" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>                            
+                    </a>
+                </div>
+            </div>
+            <div class="contact row">
+                <div>
+                    <h5>Hash Jaya Pet Care Hub</h5>
+                    <a href="tel:+(62)821-2822-3596">+(62)821-2822-3596</a>
+                    <p>Sumedang Selatan, Cipameungpeuk 45312</p>
+                </div>
+            </div>
+         </div>
+         <hr>
+         <div class="links row container">
+            <p class="copy-right">&copy; all rights reserved &  design  with love by kelompok 13</p>
+            <ul class="row">
+                <li><a href="#service">Our services</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+         </div>
+        </footer>
+        <!-- Footer End-->
+    </body>
+</html>
